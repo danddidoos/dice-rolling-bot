@@ -24,4 +24,12 @@ async def roll(ctx):
     result = random.randint(1, 6)
     await ctx.send(f"You rolled a {result}!")
 
+@bot.command()
+async def lil(ctx):
+    await ctx.send("sil")
+
+@bot.command()
+async def blim(ctx):
+    await ctx.send("bleb")
+
 bot.run(TOKEN)
